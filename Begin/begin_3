@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   int a, b, S, P;
+    printf("введите значения сторон прямоугольника а и b: \n");
+    scanf("%d %d", &a, &b);
+    
+        S = a*b;
+        P = 2*(a+b);
+        
+    printf ("площаль прямоугольника: %d\n", S);
+    printf ("периметр прямоугольника: %d\n", P);
+    
+    return 0;
+}
