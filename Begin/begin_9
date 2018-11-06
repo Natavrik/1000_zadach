@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   
+    float a, b, koren;
+    
+    printf("введите значение а и b \n");
+    scanf("%f %f", &a, &b);
+    
+    koren = sqrt (a*b);
+    
+    printf("среднее геометрическое koren %.3f\n", koren);
+    
+    return 0;
+}
