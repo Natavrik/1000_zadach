@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   int a, S;
+   printf("введите сторону квадрата а:  ");
+   scanf("%d", &a);
+   
+   S = pow (a, 2);
+   
+   printf("Площадь квадрата равна = %d\n", S);
+    return 0;
+}
