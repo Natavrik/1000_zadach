@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   int a, P;
+   printf("введите сторону квадрата а:  ");
+   scanf("%d", &a);
+   
+   P=4*a;
+   
+    printf("Периметр квадрата равен = %d\n", P);
+    return 0;
+}
