@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int a, V, S;
+  
+  printf("Введите длину ребра куба а: ");
+  scanf("%d", &a);
+
+    V = pow(a,3);
+
+  printf("Объём куба равен = %d\n", V);
+  
+    S = 6 * pow(a,2);
+    
+  printf("Площдь его поверхности = %d\n", S);
+  
+    return 0;
+}
