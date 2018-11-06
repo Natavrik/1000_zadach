@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float L, S, R, pi=3.14;
+    
+    printf("Задайте значние R  \n");
+    scanf("%f", &R);
+    
+        L=2*pi*R;
+        S=pi*pow(R,2);
+    
+    printf("длина окружности L = %.3f\n", L);
+    printf("площадь круга S =  %.3f\n", S);
+  
+    return 0;
+}
