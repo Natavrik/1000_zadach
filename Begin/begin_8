@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+
+    float a, b, S;
+    printf("введите значения a  и  b: \n");
+    scanf("%f %f", &a, &b);
+    
+    S = (a+b)/2;
+    
+    printf("среднее арифмитическое S = %.1f\n", S);
+    
+    return 0;
+}
