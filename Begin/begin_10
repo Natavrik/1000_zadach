@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   float a, b, sum=0, rasnost=0, proizved=0, chastnoe=0;
+   
+   printf(" введите два ненулевых числа а и b \n");
+   scanf("%f %f", &a, &b);
+  
+  if(a!=0&& b!=0)
+  {
+   sum = a+b;
+   rasnost = a-b;
+   proizved = a*b;
+   chastnoe = pow (a,2) - pow (b,2);
+  }
+   printf("%f\n %f\n %f\n %f\n", sum, rasnost, proizved, chastnoe);
+ 
+    
+    return 0;
+}
