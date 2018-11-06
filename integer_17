@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main ()
+
+{
+    int a;
+    scanf("%d", &a);
+
+    if (a>999)
+    {
+        a/=100;
+        a%=10;
+        printf("%d\n", a);
+    }else 
+{
+    printf("всё по новой");
+}
+    return 0;
+}
