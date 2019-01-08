@@ -5,6 +5,7 @@
 в записи этого числа.
 
 
+
 #include <stdio.h>
 int main (){
     int a;
